@@ -1,7 +1,0 @@
-{
-    "admin": "false",
-    "autoEnroll": "true",
-    "description": "Sign everything",
-    "name": "signers",
-    "users": [ "malcolm-signer" ]
-}

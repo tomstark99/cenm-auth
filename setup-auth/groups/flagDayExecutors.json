@@ -1,7 +1,0 @@
-{
-    "admin": "false",
-    "autoEnroll": "true",
-    "description": "Flag day execution rights, everything else read only, locked down",
-    "name": "flagDayExecutors",
-    "users": [ "james-flagday" ]
-}

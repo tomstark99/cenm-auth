@@ -1,8 +1,0 @@
-{
-    "name": "james-flagday",
-    "email": "james.flagday@megacorp.com",
-    "password": "p4ssWord",
-    "enabled": "true",
-    "groups": [ ],
-    "admin": "false"
-}

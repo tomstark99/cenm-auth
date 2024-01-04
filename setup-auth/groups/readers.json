@@ -1,7 +1,0 @@
-{
-    "admin": "false",
-    "autoEnroll": "true",
-    "description": "Read only access, locked down (members are guaranteed not to have modification rights)",
-    "name": "readers",
-    "users": [ "johnny-reader" ]
-}

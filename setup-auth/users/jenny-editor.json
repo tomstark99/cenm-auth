@@ -1,8 +1,0 @@
-{
-    "name": "jenny-editor",
-    "email": "jenny.editor@megacorp.com",
-    "password": "p4ssWord",
-    "enabled": "true",
-    "groups": [ ],
-    "admin": "false"
-}
