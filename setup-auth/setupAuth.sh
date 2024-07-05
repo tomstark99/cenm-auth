@@ -1,6 +1,6 @@
 # log in and cache access token
 TOKEN_RESPONSE="$(curl -X POST --data "grant_type=password" --data "username=admin" \
-    --data "password=p4ssWord" http://127.0.0.1:8089/api/v1/authentication/authenticate)"
+    --data "password=p4ssWord" http://127.0.0.1:8089/api/v1/authentication/authenticate --raw | sed -n 2p)"
 ACCESS_TOKEN="$(echo ${TOKEN_RESPONSE} | jq -r '.access_token')"
 echo "access-token=${ACCESS_TOKEN}"
 
